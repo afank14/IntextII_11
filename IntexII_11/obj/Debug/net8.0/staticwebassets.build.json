@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "e2JTM7UCTVX/O/4a+i28MgkUKmajqWeOymH6LNYEm+4=",
+  "Hash": "7WRJHHexd/o2lFVkdqrmqTp4HHldcorAZieuKfnIA/E=",
   "Source": "IntexII_11",
   "BasePath": "_content/IntexII_11",
   "Mode": "Default",
@@ -1231,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/img/logo.png",
+      "SourceId": "IntexII_11",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
+      "BasePath": "_content/IntexII_11",
+      "RelativePath": "img/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logo.png"
     },
     {
       "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/js/site.js",
