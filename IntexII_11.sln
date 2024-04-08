@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntexII_11", "IntexII_11\IntexII_11.csproj", "{C55EF23E-904E-4F3E-974B-9A9B54300000}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C55EF23E-904E-4F3E-974B-9A9B54300000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55EF23E-904E-4F3E-974B-9A9B54300000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55EF23E-904E-4F3E-974B-9A9B54300000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55EF23E-904E-4F3E-974B-9A9B54300000}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
