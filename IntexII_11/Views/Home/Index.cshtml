@@ -9,16 +9,13 @@
         <div class="col-2">
             Add filtering here
         </div>
-        <div class="col">
-            @if (Model != null && Model.Any())
-            {
-                <img src="@Model[0].img_link"/>
-            }
-            else
-            {
-                <p>No image available</p>
-            }
-
+        <div class="col-10">
+            <div class="d-flex flex-wrap">
+                @foreach (Product p in Model)
+                {
+                    <partial name="ProductSummary" model="p"></partial>
+                }
+            </div>
         </div>
     </div>
 </div>
