@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alexfankhauser/RiderProjects/IntexII_11/IntexII_11/IntexII_11.csproj": {}
+    "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/IntexII_11.csproj": {}
   },
   "projects": {
-    "/Users/alexfankhauser/RiderProjects/IntexII_11/IntexII_11/IntexII_11.csproj": {
+    "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/IntexII_11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alexfankhauser/RiderProjects/IntexII_11/IntexII_11/IntexII_11.csproj",
+        "projectUniqueName": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/IntexII_11.csproj",
         "projectName": "IntexII_11",
-        "projectPath": "/Users/alexfankhauser/RiderProjects/IntexII_11/IntexII_11/IntexII_11.csproj",
+        "projectPath": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/IntexII_11.csproj",
         "packagesPath": "/Users/alexfankhauser/.nuget/packages/",
-        "outputPath": "/Users/alexfankhauser/RiderProjects/IntexII_11/IntexII_11/obj/",
+        "outputPath": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/alexfankhauser/.nuget/NuGet/NuGet.Config"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
