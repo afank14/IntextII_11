@@ -6,16 +6,19 @@ namespace IntexII_11.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private ApplicationDbContext _context;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ApplicationDbContext temp)
     {
-        _logger = logger;
+        _context = temp;
     }
 
+    [HttpGet]
     public IActionResult Index()
     {
-        return View();
+        var products = _context.Products.Take(12).ToList();
+
+        return View(products);
     }
 
     public IActionResult Privacy()

@@ -287,3 +287,4 @@
 /Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/obj/Debug/net8.0/IntexII_11.genruntimeconfig.cache
 /Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/obj/Debug/net8.0/ref/IntexII_11.dll
 /Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/bin/Debug/net8.0/IntexII.db
+/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.Google.dll
