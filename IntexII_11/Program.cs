@@ -1,8 +1,9 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using IntexII_11.Data; // Adjust this using directive to match your actual data context namespace
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using IntexII_11.Models;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
