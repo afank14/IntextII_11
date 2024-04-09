@@ -32,6 +32,13 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
+// Configure cookie policy options
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    options.CheckConsentNeeded = context => true;
+    options.MinimumSameSitePolicy = SameSiteMode.None;
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline
@@ -42,16 +49,17 @@ if (app.Environment.IsDevelopment())
 else
 {
     app.UseExceptionHandler("/Home/Error");
-    app.UseHsts(); // Enable HSTS in non-development environments
+    app.UseHsts();
 }
 
-app.UseHttpsRedirection(); // Enable HTTPS redirection for all environments
-
+app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+app.UseCookiePolicy(); // Use cookie policy middleware here
 
 app.UseRouting();
 
-app.UseAuthentication(); // Set up the authentication middleware
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
@@ -60,3 +68,4 @@ app.MapControllerRoute(
 app.MapRazorPages();
 
 app.Run();
+
