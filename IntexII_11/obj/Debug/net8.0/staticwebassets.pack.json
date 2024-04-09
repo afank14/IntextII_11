@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/img/logo.png",
+      "PackagePath": "staticwebassets/img/logo.png"
+    },
+    {
       "Id": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

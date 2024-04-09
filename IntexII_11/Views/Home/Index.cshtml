@@ -1,8 +1,21 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@model List<Product>
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h2 class="text-center">Welcome to Aurora Bricks, we're happy to have you friend! Happy bricking!</h2>
+    <div class="row">
+        <div class="col-2">
+            Add filtering here
+        </div>
+        <div class="col-10">
+            <div class="d-flex flex-wrap">
+                @foreach (Product p in Model)
+                {
+                    <partial name="ProductSummary" model="p"></partial>
+                }
+            </div>
+        </div>
+    </div>
 </div>
