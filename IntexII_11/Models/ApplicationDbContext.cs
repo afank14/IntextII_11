@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace IntexII_11.Data;
+namespace IntexII_11.Models;
 
 public class ApplicationDbContext : IdentityDbContext
 {

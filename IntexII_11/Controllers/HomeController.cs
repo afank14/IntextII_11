@@ -1,5 +1,4 @@
 using System.Diagnostics;
-using IntexII_11.Data;
 using Microsoft.AspNetCore.Mvc;
 using IntexII_11.Models;
 
