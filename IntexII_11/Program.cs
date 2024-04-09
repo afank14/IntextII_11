@@ -12,6 +12,7 @@ builder.Services.AddAuthentication(options =>
         options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
     })
 .AddCookie();
+//We added our ClientId and ClientSecret through the terminal
 builder.Services.AddAuthentication().AddGoogle(googleOptions =>
 {
     googleOptions.ClientId = builder.Configuration["Authentication:Google:ClientId"];
