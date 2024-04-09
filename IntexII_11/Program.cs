@@ -3,8 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using IntexII_11.Data;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 var builder = WebApplication.CreateBuilder(args);
-
+// This is where we set up the google authentication services
 builder.Services.AddAuthentication(options =>
     {
         options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
