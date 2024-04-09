@@ -1,12 +1,12 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Aurora Bricks</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
-    <link rel="stylesheet" href="~/IntexII_11.styles.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/IntexII_11.styles.css" asp-append-version="true" />
     <script src="https://kit.fontawesome.com/4e483add3d.js" crossorigin="anonymous"></script>
     <style>
         body, h1, h2, h3, h4, h5, h6, p, a, li, ul {
@@ -16,43 +16,62 @@
     </style>
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color: #FFEBC6">
-        <div class="container-fluid">
-            
-            <a class="navbar-brand" style="font-weight: bold" asp-area="" asp-controller="Home" asp-action="Index">
-                <img src="~/img/logo.png" width="32" height="32" alt="Logo Icon"> AURORA BRICKS
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                    </li>
-                </ul>
-                <partial name="_LoginPartial"/>
-            </div>
-            <i class="fa fa-shopping-cart"></i>
-        </div>
-    </nav>
-</header>
-<div class="container">
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
-</div>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color: #FFEBC6">
+            <div class="container-fluid">
 
-<footer class="border-top footer text-muted">
+                <a class="navbar-brand" style="font-weight: bold" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/img/logo.png" width="32" height="32" alt="Logo Icon"> AURORA BRICKS
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+                <i class="fa fa-shopping-cart"></i>
+            </div>
+        </nav>
+    </header>
     <div class="container">
-        &copy; 2024 - IntexII_11 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
     </div>
-</footer>
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/js/site.js" asp-append-version="true"></script>
-@await RenderSectionAsync("Scripts", required: false)
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - IntexII_11 - <a href="https://www.privacypolicies.com/live/33141344-7402-463a-b898-0d8158b481b6">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookieConsentBanner" style="display: none; position: fixed; bottom: 0; width: 100%; background-color: #FFF; border-top: 1px solid #CCC; text-align: center; padding: 10px; z-index: 1000;">
+        This website uses cookies to ensure you get the best experience on our website.
+        <button id="acceptCookieConsent" class="btn btn-primary">Accept</button>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var consent = document.cookie.indexOf('CookieConsent=true') > -1;
+            if (!consent) {
+                document.getElementById('cookieConsentBanner').style.display = 'block';
+            }
+
+            document.getElementById('acceptCookieConsent').onclick = function (e) {
+                document.getElementById('cookieConsentBanner').style.display = 'none';
+                document.cookie = "CookieConsent=true; path=/; expires=" + new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toUTCString();
+            }; 
+        });
+    </script>
 </body>
 </html>

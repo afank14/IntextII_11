@@ -20,3 +20,20 @@ html {
 body {
   margin-bottom: 60px;
 }
+.cookie-consent-modal {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #efefef;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.cookie-consent-modal .content {
+        margin: auto;
+    }
+
+.cookie-consent-modal button {
+        margin: 5px;
+    }
