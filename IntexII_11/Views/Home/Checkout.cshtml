@@ -80,7 +80,7 @@
 <body>
     <h2>Checkout</h2>
     <!-- Billing Form -->
-    <form class="billing-form" id="checkoutForm">
+    <form class="billing-form" id="checkoutForm" method="post">
     <div class="form-group">
         <label for="fullName">Full Name</label>
         <input type="text" class="form-control" id="fullName" name="fullName" required>
@@ -589,10 +589,10 @@
         <label for="type_of_card">Card Type</label>
         <select class="form-control" id="type_of_card" name="type_of_card" required>
             <option value="" disabled selected>Select</option>
-            <option value="">Visa</option>
-            <option value="">Mastercard</option>
-            <option value="">American Express</option>
-            <option value="">Discover</option>
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="American Express">American Express</option>
+            <option value="Discover">Discover</option>
             <!-- Add options for countries here -->
         </select>
     </div>
@@ -604,9 +604,9 @@
             <span>$30.00</span> <!-- Update this with the actual total -->
         </div>
     </div>
-    <input type="hidden" id="country_of_residence" name="country_of_residence" value="Russia"/>
-    <input type="hidden" id="age" name="age" value="30"/>
-    <input type="hidden" id="amount" name="amount" value="30"/>
+    <input type="hidden" id="country_of_residence" name="country_of_residence" value="United Kingdom"/>
+    <input type="hidden" id="age" name="age" value="45"/>
+    <input type="hidden" id="amount" name="amount" value="63"/>
     <input type="hidden" id="gender" name="gender" value="M"/>
     <input type="hidden" id="time" name="time">
     <button type="submit" class="btn btn-primary">Submit Order</button>
@@ -628,10 +628,10 @@
             window.location.href = '/';
             // Get current timestamp
               var now = new Date();
-              
+
               // Extract hour in military time (24-hour format)
               var time = now.getHours();
-              
+
               document.getElementById("time").value = time;
               
               this.submit(); // You might want to submit the form here or redirect the user

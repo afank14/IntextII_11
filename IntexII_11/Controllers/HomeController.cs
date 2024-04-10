@@ -53,7 +53,7 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    public IActionResult Checkout(int time, int amount, int age, string billing_country, int shipping_country, string type_of_card, 
+    public IActionResult Checkout(int time, int amount, int age, string billing_country, string shipping_country, string type_of_card, 
         string country_of_residence, string gender)
     {
         var country_of_transaction_India = 0;
@@ -133,7 +133,7 @@ public class HomeController : Controller
     
             using (var results = _session.Run(inputs)) // makes the prediction from the inputs from the form
             {
-                var prediction = results.FirstOrDefault(item => item.Name == "output_label")?.AsTensor<int>()
+                var prediction = results.FirstOrDefault(item => item.Name == "output_label")?.AsTensor<long>()
                     .ToArray();
     
                 if (prediction != null && prediction[0] == 1)
