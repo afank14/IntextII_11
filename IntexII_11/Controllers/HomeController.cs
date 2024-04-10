@@ -1,22 +1,23 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using IntexII_11.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace IntexII_11.Controllers;
 
 public class HomeController : Controller
 {
-    private ApplicationDbContext _context;
+    private IAuroraRepository _repo;
 
-    public HomeController(ApplicationDbContext temp)
+    public HomeController(IAuroraRepository temp)
     {
-        _context = temp;
+        _repo = temp;
     }
 
     [HttpGet]
     public IActionResult Index()
     {
-        var products = _context.Products.Take(12).ToList();
+        var products = _repo.Products.ToList();
 
         return View(products);
     }
