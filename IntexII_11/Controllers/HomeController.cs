@@ -27,6 +27,18 @@ public class HomeController : Controller
         return View();
     }
 
+    [HttpGet]
+    public IActionResult Cart()
+    {
+        return View();
+    }
+
+    [HttpGet]
+    public IActionResult Checkout()
+    {
+        return View();
+    }
+
     public IActionResult Privacy()
     {
         return View();
