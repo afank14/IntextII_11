@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4V0OeOEPklMj9F8U066SSguIO8ABZajiS9MlLC4oir0=",
+  "Hash": "xr1VgGvrsSesHbk1dUoENd2xM6xKoo1qBeZqQPCrrNU=",
   "Source": "IntexII_11",
   "BasePath": "_content/IntexII_11",
   "Mode": "Default",
@@ -1195,6 +1195,25 @@
       "OriginalItemSpec": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IntexII_11.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\wwwroot\\._.DS_Store",
+      "SourceId": "IntexII_11",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\wwwroot\\",
+      "BasePath": "_content/IntexII_11",
+      "RelativePath": "._.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\._.DS_Store"
+    },
+    {
       "Identity": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\wwwroot\\css\\site.css",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
@@ -1231,6 +1250,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\wwwroot\\img\\GotHerIn4K.png",
+      "SourceId": "IntexII_11",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\wwwroot\\",
+      "BasePath": "_content/IntexII_11",
+      "RelativePath": "img/GotHerIn4K.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\GotHerIn4K.png"
     },
     {
       "Identity": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\wwwroot\\img\\logo.png",

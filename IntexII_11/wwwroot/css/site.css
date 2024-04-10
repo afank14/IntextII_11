@@ -18,7 +18,11 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 .cookie-consent-modal {
     position: fixed;
@@ -37,3 +41,16 @@ body {
 .cookie-consent-modal button {
         margin: 5px;
     }
+
+
+/* Make the main content flex and grow to push the footer down */
+main {
+    flex: 1;
+}
+
+/* Footer styles */
+footer {
+    background-color: white; /* Example background color */
+    padding: 10px 0;
+    text-align: center;
+}

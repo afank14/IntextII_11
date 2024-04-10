@@ -3,7 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using IntexII_11.Models;
-
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -56,7 +58,15 @@ else
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-app.UseCookiePolicy(); // Use cookie policy middleware here
+app.UseCookiePolicy(); // Use cookie policy middleware
+
+// CSP middleware
+//app.Use(async (context, next) =>
+//{
+//    context.Response.Headers.Append("Content-Security-Policy",
+//        "connect-src 'self'; ");
+//    await next();
+//});
 
 app.UseRouting();
 

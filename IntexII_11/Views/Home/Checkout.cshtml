@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            width: 850px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        table, .billing-form {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        th, td, input, select, textarea {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            text-align: left;
+            background-color: #f2f2f2;
+        }
+
+        .total-row, .order-total {
+            font-weight: bold;
+            text-align: right;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .order-total-box {
+            padding: 15px;
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Checkout</h2>
+    <!-- Billing Form -->
+    <form class="billing-form" id="checkoutForm">
+        <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" class="form-control" id="fullName" name="fullName" required>
+        </div>
+        <div class="form-group">
+            <label for="billcountry">BillingCountry</label>
+            <input type="text" class="form-control" id="billcountry" name="billcountry" required>
+        </div>
+        <div class="form-group">
+            <label for="shipcountry">Shipping Country</label>
+            <input type="text" class="form-control" id="shipcountry" name="shipcountry" required>
+        </div>
+        <div class="form-group">
+            <label for="cardtype">Card Type</label>
+            <select class="form-control" id="cardtype" name="cardtype" required>
+                <option value="" disabled selected>Select</option>
+                <option value="">Visa</option>
+                <option value="">Mastercard</option>
+                <option value="">American Express</option>
+                <option value="">Discover</option>
+                <!-- Add options for countries here -->
+            </select>
+        </div>
+
+        <!-- Order Total Box -->
+        <div class="order-total-box">
+            <div class="order-total">
+                <span>Order Total:</span>
+                <span>$30.00</span> <!-- Update this with the actual total -->
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit Order</button>
+    </form>
+    <script>
+        // JavaScript to handle form submission
+        document.getElementById('checkoutForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevents the form from submitting in the traditional way
+            alert('Thanks for shopping with us!'); // Shows the alert box
+            this.submit(); // You might want to submit the form here or redirect the user
+            window.location.href = '/';
+        });
+    </script>
+</body>
+</html>
