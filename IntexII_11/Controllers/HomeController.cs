@@ -21,6 +21,12 @@ public class HomeController : Controller
         return View(products);
     }
 
+    [HttpGet]
+    public IActionResult AboutPage()
+    {
+        return View();
+    }
+
     public IActionResult Privacy()
     {
         return View();

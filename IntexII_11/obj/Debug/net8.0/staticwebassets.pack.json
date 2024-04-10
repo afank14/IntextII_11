@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\IntexII_11.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\wwwroot\\._.DS_Store",
+      "PackagePath": "staticwebassets\\._.DS_Store"
+    },
+    {
       "Id": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\wwwroot\\img\\GotHerIn4K.png",
+      "PackagePath": "staticwebassets\\img\\GotHerIn4K.png"
     },
     {
       "Id": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\wwwroot\\img\\logo.png",
