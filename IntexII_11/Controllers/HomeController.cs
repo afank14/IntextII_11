@@ -49,4 +49,16 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+
+    public IActionResult ProductDetail(int Id)
+    {
+        var product = _context.Products.FirstOrDefault(p => p.product_ID == Id);
+        
+        if (product == null)
+        {
+            return NotFound();
+        }
+        
+        return View(product);
+    }
 }

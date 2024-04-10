@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj": {}
+    "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\IntexII_11.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj": {
+    "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\IntexII_11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj",
+        "projectUniqueName": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\IntexII_11.csproj",
         "projectName": "IntexII_11",
-        "projectPath": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj",
-        "packagesPath": "C:\\Users\\jakegrimsman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\obj\\",
+        "projectPath": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\IntexII_11.csproj",
+        "packagesPath": "C:\\Users\\leila\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jakegrimsman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leila\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
