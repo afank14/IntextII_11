@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "Hash": "dXbshpiGH1vG/LoBYD8vcTPqmludzIx4dZQn8Ra2AcM=",
-=======
-  "Hash": "9wze+2BdbATxEL4d4YxJJVtlrfvqfc82aD52VOu67/M=",
->>>>>>> origin/main
   "Source": "IntexII_11",
   "BasePath": "_content/IntexII_11",
   "Mode": "Default",
@@ -12,30 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "IntexII_11/wwwroot",
+      "Name": "IntexII_11\\wwwroot",
       "Source": "IntexII_11",
-<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\css\\site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/css/site.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -48,7 +33,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\css\\site.css"
     },
     {
@@ -56,15 +40,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/css/site.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/favicon.ico",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -77,7 +52,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\favicon.ico"
     },
     {
@@ -85,15 +59,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/favicon.ico"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/js/site.js",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -106,7 +71,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\js\\site.js"
     },
     {
@@ -266,15 +230,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/js/site.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -287,7 +242,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
@@ -295,15 +249,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -316,7 +261,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
@@ -324,15 +268,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -345,7 +280,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
@@ -353,15 +287,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -374,7 +299,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
@@ -382,15 +306,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -403,7 +318,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
@@ -411,15 +325,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -432,7 +337,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
@@ -440,15 +344,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -461,7 +356,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
@@ -469,15 +363,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -490,7 +375,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
@@ -498,15 +382,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -519,7 +394,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
@@ -527,15 +401,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -548,7 +413,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
@@ -556,15 +420,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -577,7 +432,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
@@ -585,15 +439,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -606,7 +451,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
@@ -614,15 +458,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -635,7 +470,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
@@ -643,15 +477,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -664,7 +489,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
@@ -672,15 +496,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -693,7 +508,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
@@ -701,15 +515,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -722,7 +527,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
@@ -730,15 +534,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -751,7 +546,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
@@ -759,15 +553,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -780,7 +565,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
@@ -788,15 +572,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -809,7 +584,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
@@ -817,15 +591,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -838,7 +603,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
@@ -846,15 +610,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -867,7 +622,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
@@ -875,15 +629,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -896,7 +641,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
@@ -904,15 +648,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -925,7 +660,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
@@ -933,15 +667,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -954,7 +679,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
@@ -962,167 +686,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1135,7 +698,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
@@ -1143,15 +705,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1164,7 +717,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
@@ -1172,15 +724,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1193,7 +736,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
@@ -1201,15 +743,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1222,7 +755,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
@@ -1230,15 +762,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1251,7 +774,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
@@ -1259,15 +781,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1280,7 +793,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
@@ -1288,15 +800,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1309,7 +812,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
@@ -1317,15 +819,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1338,7 +831,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
@@ -1346,15 +838,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1367,7 +850,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
@@ -1375,15 +857,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1396,7 +869,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
@@ -1404,15 +876,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1425,7 +888,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
@@ -1433,15 +895,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1454,7 +907,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
@@ -1462,15 +914,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/LICENSE",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1483,7 +926,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
     },
     {
@@ -1662,15 +1104,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/bootstrap/LICENSE"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1683,7 +1116,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
@@ -1691,15 +1123,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1712,7 +1135,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
@@ -1720,15 +1142,6 @@
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
->>>>>>> origin/main
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1741,7 +1154,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
@@ -1749,186 +1161,6 @@
       "SourceId": "IntexII_11",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation-unobtrusive/LICENSE.txt"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.js",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.min.js",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.min.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.js",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.min.js",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.min.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation/LICENSE.md",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation/LICENSE.md",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery-validation/LICENSE.md"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery/dist/jquery.js",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/jquery/dist/jquery.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery/dist/jquery.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery/dist/jquery.min.js",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery/dist/jquery.min.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery/dist/jquery.min.map",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery/dist/jquery.min.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery/LICENSE.txt",
-      "SourceId": "Microsoft.AspNetCore.Identity.UI",
-      "SourceType": "Package",
-      "ContentRoot": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/",
-      "BasePath": "Identity",
-      "RelativePath": "lib/jquery/LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/alexfankhauser/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.3/staticwebassets/V5/lib/jquery/LICENSE.txt"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/obj/Debug/net8.0/scopedcss/bundle/IntexII_11.styles.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/obj/Debug/net8.0/scopedcss/bundle/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "IntexII_11.styles.css",
       "AssetKind": "All",
@@ -1941,7 +1173,6 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IntexII_11.styles.css"
     },
     {
@@ -1949,15 +1180,6 @@
       "SourceId": "IntexII_11",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/obj/Debug/net8.0/scopedcss/bundle/IntexII_11.styles.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/obj/Debug/net8.0/scopedcss/projectbundle/IntexII_11.bundle.scp.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/obj/Debug/net8.0/scopedcss/projectbundle/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "IntexII_11.bundle.scp.css",
       "AssetKind": "All",
@@ -1970,7 +1192,6 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IntexII_11.bundle.scp.css"
     },
     {
@@ -1978,15 +1199,6 @@
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "OriginalItemSpec": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/obj/Debug/net8.0/scopedcss/projectbundle/IntexII_11.bundle.scp.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/._.DS_Store",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "._.DS_Store",
       "AssetKind": "All",
@@ -1999,20 +1211,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/._.DS_Store"
+      "OriginalItemSpec": "wwwroot\\._.DS_Store"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\css\\site.css",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/css/site.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2025,20 +1230,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\favicon.ico",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/favicon.ico",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -2051,20 +1249,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\img\\GotHerIn4K.png",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/img/GotHerIn4K.png",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "img/GotHerIn4K.png",
       "AssetKind": "All",
@@ -2077,20 +1268,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/GotHerIn4K.png"
+      "OriginalItemSpec": "wwwroot\\img\\GotHerIn4K.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\img\\logo.png",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/img/logo.png",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "img/logo.png",
       "AssetKind": "All",
@@ -2103,20 +1287,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/logo.png"
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\js\\site.js",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/js/site.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2129,10 +1306,9 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
@@ -2289,12 +1465,6 @@
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2307,20 +1477,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2333,20 +1496,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2359,20 +1515,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2385,20 +1534,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2411,20 +1553,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2437,20 +1572,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2463,20 +1591,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2489,20 +1610,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2515,20 +1629,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2541,20 +1648,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2567,20 +1667,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2593,20 +1686,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2619,20 +1705,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2645,20 +1724,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2671,20 +1743,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2697,20 +1762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2723,20 +1781,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2749,20 +1800,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2775,20 +1819,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2801,20 +1838,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2827,20 +1857,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2853,20 +1876,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2879,20 +1895,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2905,172 +1914,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3083,20 +1933,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3109,20 +1952,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3135,20 +1971,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3161,20 +1990,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3187,20 +2009,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3213,20 +2028,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3239,20 +2047,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -3265,20 +2066,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -3291,20 +2085,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3317,20 +2104,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3343,20 +2123,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3369,20 +2142,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/bootstrap/LICENSE",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3395,10 +2161,9 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
@@ -3574,12 +2339,6 @@
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3592,20 +2351,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3618,20 +2370,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -3644,191 +2389,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\lib\\qrcode\\qrcode.min.js",
       "SourceId": "IntexII_11",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\wwwroot\\",
-=======
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/jquery-validation/dist/additional-methods.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/jquery-validation/LICENSE.md",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/jquery-validation/LICENSE.md",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/jquery/dist/jquery.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/jquery/dist/jquery.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/jquery/dist/jquery.min.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/jquery/dist/jquery.min.map",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/jquery/LICENSE.txt",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
-      "BasePath": "_content/IntexII_11",
-      "RelativePath": "lib/jquery/LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
-    },
-    {
-      "Identity": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/lib/qrcode/qrcode.min.js",
-      "SourceId": "IntexII_11",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/wwwroot/",
->>>>>>> origin/main
       "BasePath": "_content/IntexII_11",
       "RelativePath": "lib/qrcode/qrcode.min.js",
       "AssetKind": "All",
@@ -3841,7 +2408,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/qrcode/qrcode.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\qrcode\\qrcode.min.js"
     }
   ]
 }

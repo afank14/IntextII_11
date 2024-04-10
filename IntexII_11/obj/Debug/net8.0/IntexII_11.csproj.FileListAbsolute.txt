@@ -580,8 +580,8 @@ C:\Users\jakegrimsman\source\repos\IntextII_11\IntexII_11\obj\Debug\net8.0\Intex
 C:\Users\jakegrimsman\source\repos\IntextII_11\IntexII_11\obj\Debug\net8.0\ref\IntexII_11.dll
 C:\Users\leila\OneDrive\Desktop\intexII\IntexII_11\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\leila\OneDrive\Desktop\intexII\IntexII_11\bin\Debug\net8.0\appsettings.json
-C:\Users\leila\OneDrive\Desktop\intexII\IntexII_11\bin\Debug\net8.0\IntexII.db
 C:\Users\leila\OneDrive\Desktop\intexII\IntexII_11\bin\Debug\net8.0\IntexII_11.staticwebassets.runtime.json
+C:\Users\leila\OneDrive\Desktop\intexII\IntexII_11\bin\Debug\net8.0\IntexII.db
 C:\Users\leila\OneDrive\Desktop\intexII\IntexII_11\bin\Debug\net8.0\IntexII_11.exe
 C:\Users\leila\OneDrive\Desktop\intexII\IntexII_11\bin\Debug\net8.0\IntexII_11.deps.json
 C:\Users\leila\OneDrive\Desktop\intexII\IntexII_11\bin\Debug\net8.0\IntexII_11.runtimeconfig.json

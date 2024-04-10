@@ -15,11 +15,26 @@ public class HomeController : Controller
     }
 
     [HttpGet]
-    public IActionResult Index()
+    public IActionResult Index(string[] category, string primaryColor, string secondaryColor)
     {
-        var products = _repo.Products.ToList();
+        IQueryable<Product> products = _repo.Products.AsQueryable();
 
-        return View(products);
+        if (category != null && category.Any())
+        {
+            products = products.Where(p => category.Any(c => p.category.Contains(c)));
+        }
+
+        if (!string.IsNullOrEmpty(primaryColor))
+        {
+            products = products.Where(p => p.primary_color == primaryColor);
+        }
+
+        if (!string.IsNullOrEmpty(secondaryColor))
+        {
+            products = products.Where(p => p.secondary_color == secondaryColor);
+        }
+
+        return View(products.ToList());
     }
 
     [HttpGet]
@@ -53,7 +68,7 @@ public class HomeController : Controller
 
     public IActionResult ProductDetail(int Id)
     {
-        var product = _context.Products.FirstOrDefault(p => p.product_ID == Id);
+        var product = _repo.Products.FirstOrDefault(p => p.product_ID == Id);
         
         if (product == null)
         {
