@@ -10,11 +10,12 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-IntexII_11-AB6B99FE-3D6E-44A2-AEB2-305EFE25FAE9")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntexII_11")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6be5a324c716c11f64aa9eeba328a891c4878b5e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+426b13252b80cddfed707fd53f34a932eff58d7f")]
 [assembly: System.Reflection.AssemblyProductAttribute("IntexII_11")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IntexII_11")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

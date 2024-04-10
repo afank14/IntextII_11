@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj": {}
+    "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/IntexII_11.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj": {
+    "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/IntexII_11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj",
+        "projectUniqueName": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/IntexII_11.csproj",
         "projectName": "IntexII_11",
-        "projectPath": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj",
-        "packagesPath": "C:\\Users\\jakegrimsman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\obj\\",
+        "projectPath": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/IntexII_11.csproj",
+        "packagesPath": "/Users/alexfankhauser/.nuget/packages/",
+        "outputPath": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jakegrimsman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/alexfankhauser/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -100,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
