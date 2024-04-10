@@ -44,7 +44,7 @@ public class HomeController : Controller
     }
 
     [HttpGet]
-    public IActionResult Cart()
+    public IActionResult MyBag()
     {
         return View();
     }
