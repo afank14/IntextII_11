@@ -8634,11 +8634,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\leila\\.nuget\\packages\\": {}
+=======
+    "/Users/alexfankhauser/.nuget/packages/": {}
+>>>>>>> origin/main
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\IntexII_11.csproj",
       "projectName": "IntexII_11",
       "projectPath": "C:\\Users\\leila\\OneDrive\\Desktop\\intexII\\IntexII_11\\IntexII_11.csproj",
@@ -8648,12 +8653,21 @@
       "configFilePaths": [
         "C:\\Users\\leila\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+      "projectUniqueName": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/IntexII_11.csproj",
+      "projectName": "IntexII_11",
+      "projectPath": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/IntexII_11.csproj",
+      "packagesPath": "/Users/alexfankhauser/.nuget/packages/",
+      "outputPath": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/alexfankhauser/.nuget/NuGet/NuGet.Config"
+>>>>>>> origin/main
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8732,7 +8746,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+>>>>>>> origin/main
       }
     }
   }
