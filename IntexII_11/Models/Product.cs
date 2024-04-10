@@ -14,6 +14,6 @@ public class Product
     public string primary_color { get; set; }
     public string secondary_color { get; set; }
     public string description { get; set; }
-    public string category { get; set; }
+    // public string category { get; set; }
     
 }

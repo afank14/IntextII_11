@@ -6,17 +6,17 @@ namespace IntexII_11.Controllers;
 
 public class HomeController : Controller
 {
-    private ApplicationDbContext _context;
+    private IAuroraRepository _repo;
 
-    public HomeController(ApplicationDbContext temp)
+    public HomeController(IAuroraRepository temp)
     {
-        _context = temp;
+        _repo = temp;
     }
 
     [HttpGet]
     public IActionResult Index()
     {
-        var products = _context.Products.Take(12).ToList();
+        var products = _repo.GetProductsWithCategory().ToList();
 
         return View(products);
     }

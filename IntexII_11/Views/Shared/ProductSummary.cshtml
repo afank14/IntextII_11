@@ -1,16 +1,16 @@
-@model Product
+@model ProductCategory
 
 <div class="card m-1 p-1" style="width: 30%;">
     <div class="d-flex flex-column justify-content-between">
         <div>
-            <h4><span class="badge rounded-pill text-black float-end" style="background-color: #FFEBC6"><small>$@Model.price</small></span></h4>
-            <br/><img src="@Model.img_link" width="150" height="150" class="mb-2"/>
+            <h4><span class="badge rounded-pill text-black float-end" style="background-color: #FFEBC6"><small>$@Model.Product.price</small></span></h4>
+            <br/><img src="@Model.Product.img_link" width="150" height="150" class="mb-2"/>
             <ul class="list-unstyled mb-0">
                 <li><span>
                     <img src="~/img/logo.png" width="20" height="20" alt="Logo Icon"/>
-                    <small>@Model.num_parts pieces</small>
+                    <small>@Model.Product.num_parts pieces</small>
                 </span></li>
-                <li>@Model.name</li>
+                <li>@Model.Product.name</li>
             </ul>
         </div>
         <div>
