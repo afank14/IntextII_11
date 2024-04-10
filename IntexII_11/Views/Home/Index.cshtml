@@ -1,7 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-@model List<ProductCategory>
+@model List<Product>
 
 <div class="text-center">
     <h2 class="text-center">Welcome to Aurora Bricks, we're happy to have you friend! Happy bricking!</h2>
@@ -11,7 +11,7 @@
         </div>
         <div class="col-10">
             <div class="d-flex flex-wrap">
-                @foreach (ProductCategory p in Model)
+                @foreach (Product p in Model)
                 {
                     <partial name="ProductSummary" model="p"></partial>
                 }

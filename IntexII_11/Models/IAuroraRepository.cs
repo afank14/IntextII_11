@@ -7,8 +7,8 @@ public interface IAuroraRepository
     public IQueryable<Order> Orders { get; }
     public IQueryable<Category> Categories { get; }
     public IQueryable<LineItem> LineItems { get; }
-    public IQueryable<ProductCategory> ProductCategories { get; }
+    // public IQueryable<ProductCategory> ProductCategories { get; }
     public IQueryable<User60Rec> User60Recs { get; }
 
-    public IQueryable<ProductCategory> GetProductsWithCategory();
+    // public IQueryable<ProductCategory> GetProductsWithCategory();
 }

@@ -16,7 +16,7 @@ public class HomeController : Controller
     [HttpGet]
     public IActionResult Index()
     {
-        var products = _repo.GetProductsWithCategory().ToList();
+        var products = _repo.Products.ToList();
 
         return View(products);
     }

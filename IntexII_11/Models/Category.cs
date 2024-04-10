@@ -8,4 +8,6 @@ public class Category
     public int category_ID { get; set; }
     [Required]
     public string category_name { get; set; }
+
+    public List<Product> Products { get; } = [];
 }

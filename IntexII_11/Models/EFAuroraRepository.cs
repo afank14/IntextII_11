@@ -16,13 +16,13 @@ public class EFAuroraRepository : IAuroraRepository
     public IQueryable<Order> Orders => _context.Orders;
     public IQueryable<Category> Categories => _context.Categories;
     public IQueryable<LineItem> LineItems => _context.LineItems;
-    public IQueryable<ProductCategory> ProductCategories => _context.ProductCategories;
+    // public IQueryable<ProductCategory> ProductCategories => _context.ProductCategories;
     public IQueryable<User60Rec> User60Recs => _context.User60Recs;
     
     // Method to get the stats and include Category
-    public IQueryable<ProductCategory> GetProductsWithCategory()
-    {
-        return _context.ProductCategories.Include(p => p.Product)
-            .Include(p => p.Category);
-    }
+    // public IQueryable<ProductCategory> GetProductsWithCategory()
+    // {
+    //     return _context.ProductCategories.Include(p => p.Product)
+    //         .Include(p => p.Category);
+    // }
 }
