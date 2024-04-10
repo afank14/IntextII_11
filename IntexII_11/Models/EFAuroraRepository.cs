@@ -14,7 +14,6 @@ public class EFAuroraRepository : IAuroraRepository
     public IQueryable<Product> Products => _context.Products;
     public IQueryable<Customer> Customers => _context.Customers;
     public IQueryable<Order> Orders => _context.Orders;
-    public IQueryable<Category> Categories => _context.Categories;
     public IQueryable<LineItem> LineItems => _context.LineItems;
     // public IQueryable<ProductCategory> ProductCategories => _context.ProductCategories;
     public IQueryable<User60Rec> User60Recs => _context.User60Recs;

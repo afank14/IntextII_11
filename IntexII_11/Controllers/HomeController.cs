@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using IntexII_11.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace IntexII_11.Controllers;
 
