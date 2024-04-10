@@ -22,6 +22,24 @@ public class HomeController : Controller
         return View(products);
     }
 
+    [HttpGet]
+    public IActionResult AboutPage()
+    {
+        return View();
+    }
+
+    [HttpGet]
+    public IActionResult Cart()
+    {
+        return View();
+    }
+
+    [HttpGet]
+    public IActionResult Checkout()
+    {
+        return View();
+    }
+
     public IActionResult Privacy()
     {
         return View();
