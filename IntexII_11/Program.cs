@@ -31,8 +31,13 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+// Add CoreAdmin service
+builder.Services.AddCoreAdmin();
+
 builder.Services.AddControllersWithViews();
 
 // Configure cookie policy options
@@ -60,14 +65,6 @@ app.UseStaticFiles();
 
 app.UseCookiePolicy(); // Use cookie policy middleware
 
-// CSP middleware
-//app.Use(async (context, next) =>
-//{
-//    context.Response.Headers.Append("Content-Security-Policy",
-//        "connect-src 'self'; ");
-//    await next();
-//});
-
 app.UseRouting();
 
 app.UseAuthentication();
@@ -78,5 +75,38 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
-app.Run();
+using(var scope = app.Services.CreateScope())
+{
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
+    var roles = new[] { "Admin", "Member" };
+
+    foreach(var role in roles) 
+    {
+        if(!await roleManager.RoleExistsAsync(role))
+            await roleManager.CreateAsync(new IdentityRole(role));
+    }
+
+}
+
+using (var scope = app.Services.CreateScope())
+{
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
+
+    string email = "admin@admin.com";
+    string password = "Test1234!";
+
+    if(await userManager.FindByEmailAsync(email) == null)
+    {
+        var user = new IdentityUser();
+        user.UserName = email;
+        user.Email = email;
+
+        await userManager.CreateAsync(user, password);
+
+        await userManager.AddToRoleAsync(user, "Admin");
+    }
+
+}
+
+app.Run();

@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -17,6 +22,7 @@
 </head>
 <body>
     <header>
+       
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color: #FFEBC6">
             <div class="container-fluid">
 
@@ -35,6 +41,12 @@
                         <li>
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutPage">About Aurora</a>
                         </li>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="RedirectToCoreAdmin">Admin</a>
+                            </li>
+                        }
                     </ul>
                     <partial name="_LoginPartial" />
                     <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Cart">

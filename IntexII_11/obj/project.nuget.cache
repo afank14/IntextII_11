@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "KaBA1pnvG9LT1kF8hyhGjzdVD0pfGfadHAWSVxNq0XTaBr+7Cg3PmIw7omr2WcsoXGxi8OUtQe/gXEzKAmKbiw==",
+  "dgSpecHash": "beNKkPAhIq4l02GLPodN5e4Brg147koDYQ4ANG0ZzLJ9d++yxfCGw1RmBx12MgghU1IwQgrIDBewnV1hsVlPKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jakegrimsman\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\jakegrimsman\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\jakegrimsman\\.nuget\\packages\\coreadmin\\3.0.0\\coreadmin.3.0.0.nupkg.sha512",
     "C:\\Users\\jakegrimsman\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\jakegrimsman\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\jakegrimsman\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -128,6 +129,7 @@
     "C:\\Users\\jakegrimsman\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
     "C:\\Users\\jakegrimsman\\.nuget\\packages\\mono.texttemplating\\2.3.1\\mono.texttemplating.2.3.1.nupkg.sha512",
     "C:\\Users\\jakegrimsman\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\jakegrimsman\\.nuget\\packages\\nonfactors.grid.core.mvc6\\7.2.0\\nonfactors.grid.core.mvc6.7.2.0.nupkg.sha512",
     "C:\\Users\\jakegrimsman\\.nuget\\packages\\nuget.common\\6.9.1\\nuget.common.6.9.1.nupkg.sha512",
     "C:\\Users\\jakegrimsman\\.nuget\\packages\\nuget.configuration\\6.9.1\\nuget.configuration.6.9.1.nupkg.sha512",
     "C:\\Users\\jakegrimsman\\.nuget\\packages\\nuget.dependencyresolver.core\\6.9.1\\nuget.dependencyresolver.core.6.9.1.nupkg.sha512",

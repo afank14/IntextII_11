@@ -79,6 +79,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "coreadmin": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             }
           },
           "imports": [

@@ -578,3 +578,5 @@ C:\Users\jakegrimsman\source\repos\IntextII_11\IntexII_11\obj\Debug\net8.0\refin
 C:\Users\jakegrimsman\source\repos\IntextII_11\IntexII_11\obj\Debug\net8.0\IntexII_11.pdb
 C:\Users\jakegrimsman\source\repos\IntextII_11\IntexII_11\obj\Debug\net8.0\IntexII_11.genruntimeconfig.cache
 C:\Users\jakegrimsman\source\repos\IntextII_11\IntexII_11\obj\Debug\net8.0\ref\IntexII_11.dll
+C:\Users\jakegrimsman\source\repos\IntextII_11\IntexII_11\bin\Debug\net8.0\DotNetEd.CoreAdmin.dll
+C:\Users\jakegrimsman\source\repos\IntextII_11\IntexII_11\bin\Debug\net8.0\Mvc.Grid.Core.dll
