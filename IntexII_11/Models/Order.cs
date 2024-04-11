@@ -9,7 +9,7 @@ public class Order
     [Required]
     public int order_ID { get; set; }
     
-    [ForeignKey("customer_ID")]
+    [ForeignKey("Customer")]
     public int? customer_ID {  get; set; }
     public Customer? Customer { get; set; }
     [Required]

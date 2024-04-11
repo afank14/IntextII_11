@@ -54,3 +54,30 @@ footer {
     padding: 10px 0;
     text-align: center;
 }
+/* CSS file or <style> tag within the HTML */
+/* Increase specificity by repeating the class */
+.btn-secondary.btn-secondary {
+    background-color: #007bff; /* Default state */
+    color: #fff;
+}
+
+    .btn-secondary.btn-secondary:hover {
+        background-color: #28a745; /* Green on hover */
+        color: white;
+    }
+
+    /* Target the active state more specifically */
+    .btn-secondary.btn-secondary:active,
+    .btn-secondary.btn-secondary:focus {
+        background-color: #218838; /* Darker green when clicked */
+        color: white;
+    }
+.filter-box {
+    border: 2px solid #000; /* Black border, 2px thickness */
+    padding: 10px; /* Optional: Adds some space inside the box */
+    margin-bottom: 20px;
+    text-align: left;
+    max-height: 550px; /* Adjust as needed */
+    overflow-y: auto; /* Optional: Adds some space outside the box */
+}
+

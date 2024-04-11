@@ -24,17 +24,12 @@
 <div class="text-center">
     <h2>Welcome to Aurora Bricks, we're happy to have you, friend! Happy bricking!</h2>
     <div class="row">
-        <div class="col-2">
+        <div class="col-2 filter-box">
             <div class="text-left mt-3">
-                <div class="btn-group" role="group" aria-label="Display Options">
-                    <button type="button" class="btn btn-secondary btn-sm">5 results</button>
-                    <button type="button" class="btn btn-secondary btn-sm">10 results</button>
-                    <button type="button" class="btn btn-secondary btn-sm">20 results</button>
-                </div>
+                
             </div>
-            <h4>Filters</h4>
-            <h5>Category</h5>
-            <form asp-action="Index" asp-controller="Home" method="get">
+            <h2>Filters</h2>
+            <form asp-action="Index" asp-controller="Home" method="post">
                 @foreach (var category in categories)
                 {
                     <div>

@@ -32,17 +32,62 @@ public class HomeController : Controller
 
 
     [HttpGet]
+    public IActionResult Index()
+    {
+        IQueryable<Product> products = _repo.Products.AsQueryable();
+
+        // Check if the user is authenticated
+        if (User.Identity.IsAuthenticated)
+        {
+            var customers = _repo.Customers.Where(c => c.email != null).ToList();
+
+
+            // Logic for authenticated users
+            var customer = customers.FirstOrDefault(c => c.email == User.Identity.Name);
+            if (customer != null && customer.customer_ID == 60)
+            {
+                // Retrieve products based on recommendations from User60Recs table
+                var recommendedProductNames = _repo.User60Recs.Select(r => r.Recommendation).ToList();
+
+                // Retrieve products from Products table where the name matches recommendations
+                products = _repo.Products.Where(p => recommendedProductNames.Contains(p.name));
+            }
+            else
+            {
+                // Logic for authenticated users that don't have personal recommendations saved
+                products = _repo.Products
+                    .OrderByDescending(p => p.avg_rating)
+                    .Take(15);
+            }
+        }
+        else
+        {
+            // Logic for non-authenticated users
+            products = _repo.Products
+                .OrderByDescending(p => p.avg_rating)
+                .Take(15);
+        }
+
+
+        return View(products.ToList());
+    }
+
+    [HttpPost]
     public IActionResult Index(string[] category, string primaryColor, string secondaryColor)
     {
         IQueryable<Product> products = _repo.Products.AsQueryable();
+
+        // Check if category filter is applied
         if (category != null && category.Any())
         {
             products = products.Where(p => category.Any(c => p.category.Contains(c)));
         }
+        // Check if primary color filter is applied
         if (!string.IsNullOrEmpty(primaryColor))
         {
             products = products.Where(p => p.primary_color == primaryColor);
         }
+        // Check if secondary color filter is applied
         if (!string.IsNullOrEmpty(secondaryColor))
         {
             products = products.Where(p => p.secondary_color == secondaryColor);

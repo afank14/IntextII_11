@@ -1,4 +1,18 @@
 @model Product
+<script>
+    function addToCart(product) {
+    var cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+    cart.push(product);
+    sessionStorage.setItem('cart', JSON.stringify(cart));
+
+    var productData = JSON.parse(product);
+    var button = document.getElementById("addToBagButton-" + productData.product_ID);
+    button.innerHTML = '<i class="fas fa-check"></i> Item Added';
+    button.classList.remove("btn-secondary");
+    button.classList.add("btn-success");
+}</script>
+
+
 <div class="card m-1 p-1" style="width: 30%;">
     <div class="d-flex flex-column justify-content-between">
         <div>

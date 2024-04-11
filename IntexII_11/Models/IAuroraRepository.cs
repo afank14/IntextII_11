@@ -9,5 +9,7 @@ public interface IAuroraRepository
     // public IQueryable<ProductCategory> ProductCategories { get; }
     public IQueryable<User60Rec> User60Recs { get; }
 
+    public void AddOrder(Order order);
+
     // public IQueryable<ProductCategory> GetProductsWithCategory();
 }

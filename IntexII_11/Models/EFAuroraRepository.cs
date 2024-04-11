@@ -17,7 +17,12 @@ public class EFAuroraRepository : IAuroraRepository
     public IQueryable<LineItem> LineItems => _context.LineItems;
     // public IQueryable<ProductCategory> ProductCategories => _context.ProductCategories;
     public IQueryable<User60Rec> User60Recs => _context.User60Recs;
-    
+    public void AddOrder(Order order)
+    {
+        _context.Orders.Add(order);
+        _context.SaveChanges();
+    }
+
     // Method to get the stats and include Category
     // public IQueryable<ProductCategory> GetProductsWithCategory()
     // {
