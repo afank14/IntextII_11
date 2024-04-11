@@ -11,11 +11,12 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-IntexII_11-AB6B99FE-3D6E-44A2-AEB2-305EFE25FAE9")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntexII_11")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff493b8dec287f4f25960cef7cc166ae2142e03b")]
 [assembly: System.Reflection.AssemblyProductAttribute("IntexII_11")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IntexII_11")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

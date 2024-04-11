@@ -15,7 +15,7 @@
             </ul>
         </div>
         <div>
-            <button class="btn btn-secondary mt-auto">Add to Bag</button>
+            <button id="addToBagButton" class="btn btn-secondary" onclick="addToCart(@Newtonsoft.Json.JsonConvert.SerializeObject(Model))">Add to Bag</button>
             <a href="/ProductDetail/@Model.product_ID" class="btn btn-secondary mt-auto">View Details</a>
         </div>
     </div>

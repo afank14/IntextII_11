@@ -4,7 +4,25 @@
     {
     "Star Wars", "DC", "Harry Potter", "Animal", "Farm", "Disney", "Vehicle", "Food"
     };
+
+    var selectedCategories = Context.Request.Query["category"];
 }
+@section Scripts {
+    <script>
+        function addToCart(product) {
+            var cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+            cart.push(product);
+            sessionStorage.setItem('cart', JSON.stringify(cart));
+
+            var button = document.getElementById("addToBagButton");
+            button.innerHTML = '<i class="fas fa-check"></i> Item Added';
+            button.classList.remove("btn-secondary");
+            button.classList.add("btn-success");
+        }
+
+    </script>
+}
+
 @model List<Product>
 <div class="text-center">
     <h2>Welcome to Aurora Bricks, we're happy to have you, friend! Happy bricking!</h2>
@@ -23,7 +41,7 @@
                 @foreach (var category in categories)
                 {
                     <div>
-                        <input type="checkbox" name="category" value="@category" />
+                        <input type="checkbox" name="category" value="@category" @(selectedCategories.Contains(category) ? "checked" : "") />
                         <label>@category</label>
                     </div>
                 }

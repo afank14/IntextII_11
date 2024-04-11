@@ -4,12 +4,17 @@
 }
 @section Scripts {
     <script>
-        function addToCart() {
+        function addToCart(product) {
+            var cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+            cart.push(product);
+            sessionStorage.setItem('cart', JSON.stringify(cart));
+
             var button = document.getElementById("addToBagButton");
             button.innerHTML = '<i class="fas fa-check"></i> Item Added';
             button.classList.remove("btn-secondary");
             button.classList.add("btn-success");
         }
+
     </script>
 }
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -34,10 +39,29 @@
                         <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Continue Shopping</a>
                     </div>
                     <div class="col-md-6 text-end">
-                        <button id="addToBagButton" class="btn btn-secondary" onclick="addToCart()">Add to Bag</button>
+                        <button id="addToBagButton" class="btn btn-secondary" onclick="addToCart(@Newtonsoft.Json.JsonConvert.SerializeObject(Model))">Add to Bag</button>
                         <br />
                         <a href="@Url.Action("MyBag", "Home")" class="btn btn-secondary">View Bag</a>
                     </div>
+                </div>
+                <!-- Recommendations -->
+                <div class="col-md-6">
+                    <h4>Recommendations</h4>
+                    <ul class="list-group">
+                        @if (!string.IsNullOrEmpty(Model.rec_1))
+                        {
+                            <li class="list-group-item">@Model.rec_1</li>
+                        }
+                        @if (!string.IsNullOrEmpty(Model.rec_2))
+                        {
+                            <li class="list-group-item">@Model.rec_2</li>
+                        }
+                        @if (!string.IsNullOrEmpty(Model.rec_3))
+                        {
+                            <li class="list-group-item">@Model.rec_3</li>
+                        }
+                        <!-- Add more if needed -->
+                    </ul>
                 </div>
             </div>
         </div>

@@ -18,7 +18,9 @@ public class HomeController : Controller
         _repo = temp;
         try
         {
-            _session = new InferenceSession("/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/random_forest_classifier.onnx");
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string onnxFilePath = Path.Combine(currentDirectory, "random_forest_classifier.onnx");
+            _session = new InferenceSession(onnxFilePath);
         }
         catch (Exception)
         {
@@ -43,6 +45,22 @@ public class HomeController : Controller
         {
             products = products.Where(p => p.secondary_color == secondaryColor);
         }
+
+        if (User.IsInRole("User"))
+        {
+            // Fetch personalized recommendations from User60Rec for the logged-in user
+            userRecommendations = _repo.User60Recs.Where(ur => ur.UserName == userName && ur.Recommendation != null)
+                                         .Select(ur => ur.Product)
+                                         .ToList();
+        }
+        else
+        {
+            // Fetch top-rated products from the Products table
+            products = _repo.Products.OrderByDescending(p => p.avg_rating)
+                                        .Take(10) // Fetch top 10 products
+                                        .ToList();
+        }
+
         return View(products.ToList());
     }
 
