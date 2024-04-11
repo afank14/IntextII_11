@@ -18,7 +18,9 @@ public class HomeController : Controller
         _repo = temp;
         try
         {
-            _session = new InferenceSession("/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/random_forest_classifier.onnx");
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string onnxFilePath = Path.Combine(currentDirectory, "random_forest_classifier.onnx");
+            _session = new InferenceSession(onnxFilePath);        
         }
         catch (Exception)
         {
