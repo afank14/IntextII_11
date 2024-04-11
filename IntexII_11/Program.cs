@@ -58,7 +58,7 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
 
 var app = builder.Build();
 
-// Custom middleware for setting Content Security Policy
+// Custom middleware for setting Content Security Policy and X-Content-Type-Options header
 app.Use(async (context, next) =>
 {
     context.Response.Headers.Append("Content-Security-Policy",
@@ -67,7 +67,10 @@ app.Use(async (context, next) =>
                                     "style-src 'self' 'unsafe-inline' https://ka-f.fontawesome.com; " +
                                     "img-src 'self' https://m.media-amazon.com https://www.lego.com https://images.brickset.com https://www.brickeconomy.com; " +
                                     "font-src 'self' https://ka-f.fontawesome.com; " + // Adjusted for Font Awesome fonts
-                                    "connect-src 'self' https://ka-f.fontawesome.com http://localhost:* ws://localhost:* wss://localhost:*; "); // Adjusted for WebSocket connections                                                                                                                        // Added Font Awesome CSS domain and local development allowances
+                                    "connect-src 'self' https://ka-f.fontawesome.com http://localhost:* ws://localhost:* wss://localhost:*; "); // Adjusted for WebSocket connections
+
+    context.Response.Headers.Append("X-Content-Type-Options", "nosniff");
+
     await next();
 });
 

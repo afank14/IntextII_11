@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakegrimsman\\Source\\Repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj": {}
+    "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakegrimsman\\Source\\Repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj": {
+    "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakegrimsman\\Source\\Repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj",
+        "projectUniqueName": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj",
         "projectName": "IntexII_11",
-        "projectPath": "C:\\Users\\jakegrimsman\\Source\\Repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj",
+        "projectPath": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\IntexII_11.csproj",
         "packagesPath": "C:\\Users\\jakegrimsman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakegrimsman\\Source\\Repos\\IntextII_11\\IntexII_11\\obj\\",
+        "outputPath": "C:\\Users\\jakegrimsman\\source\\repos\\IntextII_11\\IntexII_11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jakegrimsman\\AppData\\Roaming\\NuGet\\NuGet.Config",

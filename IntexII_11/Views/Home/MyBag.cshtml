@@ -141,6 +141,31 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
 
     <script>
+        function loadCart() {
+            var cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+            var itemList = document.getElementById('item-list');
+            itemList.innerHTML = ''; // Clear the existing list
+            cart.forEach(function (product) {
+                var row = `
+                         <tr>
+                             <td>${product.name}</td>
+                             <td>
+                                 <div class="quantity-container">
+                                     <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                                     <input type="text" class="form-control quantity-input" value="1">
+                                     <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+                                 </div>
+                             </td>
+                             <td>$${product.price}</td>
+                             <td>
+                                 <button class="btn btn-danger" onclick="deleteRow(this)"><i class="fas fa-trash"></i></button>
+                             </td>
+                         </tr>
+                     `;
+                itemList.innerHTML += row;
+            });
+            updateTotal();
+        }
         function incrementQuantity(button) {
             var input = button.parentNode.querySelector('input[type=text]');
             var currentValue = parseInt(input.value);
@@ -156,10 +181,26 @@
                 updateTotal();
             }
         }
-
         function deleteRow(button) {
             var row = button.parentNode.parentNode;
+            var productName = row.cells[0].textContent; // Assuming the first cell contains the product name
+
+            // Load the current cart from session storage
+            var cart = JSON.parse(sessionStorage.getItem('cart')) || [];
+
+            // Find the index of the product to remove
+            var productIndex = cart.findIndex(product => product.name === productName);
+
+            // Remove the product if it's found
+            if (productIndex !== -1) {
+                cart.splice(productIndex, 1); // Remove the product from the array
+                sessionStorage.setItem('cart', JSON.stringify(cart)); // Update the session storage
+            }
+
+            // Remove the row from the table
             row.parentNode.removeChild(row);
+
+            // Update the total
             updateTotal();
         }
 
@@ -173,6 +214,7 @@
             });
             document.getElementById('total').textContent = '$' + total.toFixed(2);
         }
+        loadCart();
     </script>
 </body>
 </html>
