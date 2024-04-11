@@ -11,3 +11,21 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+IntexII_11/bin
+IntexII_11/obj
+IntexII_11/bin/Debug/net8.0/IntexII_11.dll
+IntexII_11/bin/Debug/net8.0/IntexII_11.pdb
+IntexII_11/obj/Debug/net8.0/IntexII_11.AssemblyInfo.cs
+IntexII_11/obj/Debug/net8.0/IntexII_11.AssemblyInfoInputs.cache
+IntexII_11/obj/Debug/net8.0/IntexII_11.assets.cache
+IntexII_11/obj/Debug/net8.0/IntexII_11.csproj.AssemblyReference.cache
+IntexII_11/obj/Debug/net8.0/IntexII_11.csproj.CoreCompileInputs.cache
+IntexII_11/obj/Debug/net8.0/IntexII_11.csproj.FileListAbsolute.txt
+IntexII_11/obj/Debug/net8.0/IntexII_11.dll
+IntexII_11/obj/Debug/net8.0/IntexII_11.pdb
+IntexII_11/obj/Debug/net8.0/IntexII_11.sourcelink.json
+IntexII_11/obj/Debug/net8.0/ref/IntexII_11.dll
+IntexII_11/obj/Debug/net8.0/refint/IntexII_11.dll
+IntexII_11/obj/IntexII_11.csproj.nuget.g.props
+IntexII_11/obj/IntexII_11.csproj.nuget.g.targets
+IntexII_11/obj/project.nuget.cache

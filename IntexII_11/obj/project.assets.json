@@ -46,6 +46,28 @@
           }
         }
       },
+      "CoreAdmin/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.2",
+          "NonFactors.Grid.Core.Mvc6": "7.2.0"
+        },
+        "compile": {
+          "lib/net8.0/DotNetEd.CoreAdmin.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/DotNetEd.CoreAdmin.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "buildTransitive/CoreAdmin.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/CoreAdmin.props": {}
+        }
+      },
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -2337,6 +2359,18 @@
           }
         }
       },
+      "NonFactors.Grid.Core.Mvc6/7.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Mvc.Grid.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Mvc.Grid.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "NuGet.Common/6.9.1": {
         "type": "package",
         "dependencies": {
@@ -3334,6 +3368,40 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "CoreAdmin/3.0.0": {
+      "sha512": "XK4C3e9jmxhwF3ETT3qB1J/rE1RmgvsA6PYtM6uGSyk3tpNPJSzUU9jfKcx6QlW8u/0FwLXB4bxAzamFqItemw==",
+      "type": "package",
+      "path": "coreadmin/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/CoreAdmin.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/CoreAdmin.props",
+        "buildTransitive/CoreAdmin.props",
+        "coreadmin.3.0.0.nupkg.sha512",
+        "coreadmin.nuspec",
+        "lib/net8.0/DotNetEd.CoreAdmin.dll",
+        "staticwebassets/css/bootstrap-grid.min.css",
+        "staticwebassets/css/bootstrap-reboot.min.css",
+        "staticwebassets/css/bootstrap.min.css",
+        "staticwebassets/css/easymde/easymde-dark.css",
+        "staticwebassets/css/easymde/easymde.css",
+        "staticwebassets/css/fonts/bootstrap-icons.woff",
+        "staticwebassets/css/fonts/bootstrap-icons.woff2",
+        "staticwebassets/css/mvc-grid/fonts/grid-glyphs.woff",
+        "staticwebassets/css/mvc-grid/mvc-grid-dark.css",
+        "staticwebassets/css/mvc-grid/mvc-grid.css",
+        "staticwebassets/css/style.css",
+        "staticwebassets/js/aspnet-validation.min.js",
+        "staticwebassets/js/bootstrap.bundle.min.js",
+        "staticwebassets/js/bootstrap.min.js",
+        "staticwebassets/js/color-modes.js",
+        "staticwebassets/js/easymde/easymde.min.js",
+        "staticwebassets/js/mvc-grid/mvc-grid.js",
+        "staticwebassets/js/navbar.js"
       ]
     },
     "Humanizer/2.14.1": {
@@ -7302,6 +7370,18 @@
         "packageIcon.png"
       ]
     },
+    "NonFactors.Grid.Core.Mvc6/7.2.0": {
+      "sha512": "Fn+s1mhpJNrKKfhA16bxuO15TDLSPCfUt3i2wZU08rlwu1Tmuo0Qiu8BXdAOrSWkhnhkBSlSmHgld7IonMslKw==",
+      "type": "package",
+      "path": "nonfactors.grid.core.mvc6/7.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Mvc.Grid.Core.dll",
+        "nonfactors.grid.core.mvc6.7.2.0.nupkg.sha512",
+        "nonfactors.grid.core.mvc6.nuspec"
+      ]
+    },
     "NuGet.Common/6.9.1": {
       "sha512": "FbuWZBjQ1NJXBDqCwSddN2yvw3Plq3sTCIh0nc66Hu8jrNr+BOaxlKZv78jvJ+pSy8BvurYOdF9sl9KoORjrtg==",
       "type": "package",
@@ -8924,7 +9004,8 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.3",
       "Microsoft.ML.OnnxRuntime >= 1.17.3",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
+      "coreadmin >= 3.0.0"
     ]
   },
   "packageFolders": {
@@ -9007,6 +9088,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[8.0.2, )"
+          },
+          "coreadmin": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           }
         },
         "imports": [

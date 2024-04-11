@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kSa/Cnu651Gjb2zNZODXpy3t9dbkXrJiZKuEWlvicEFCd0Gz/V7cLsaRe+apoPdJrfa5jYp/pu9xZjJDUQNEbg==",
+  "dgSpecHash": "HQv7hdMN2hrai7oL2jkXwXrmZCQheWxeCEpDgzv0QWY9GYeLLkSfenf2GOdvN3yToCVkA+vAeLbDr9xic+UFxg==",
   "success": true,
   "projectFilePath": "/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/IntexII_11.csproj",
   "expectedPackageFiles": [
     "/Users/alexfankhauser/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/alexfankhauser/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
+    "/Users/alexfankhauser/.nuget/packages/coreadmin/3.0.0/coreadmin.3.0.0.nupkg.sha512",
     "/Users/alexfankhauser/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/alexfankhauser/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/alexfankhauser/.nuget/packages/humanizer.core.af/2.14.1/humanizer.core.af.2.14.1.nupkg.sha512",
@@ -130,6 +131,7 @@
     "/Users/alexfankhauser/.nuget/packages/microsoft.win32.systemevents/7.0.0/microsoft.win32.systemevents.7.0.0.nupkg.sha512",
     "/Users/alexfankhauser/.nuget/packages/mono.texttemplating/2.3.1/mono.texttemplating.2.3.1.nupkg.sha512",
     "/Users/alexfankhauser/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/alexfankhauser/.nuget/packages/nonfactors.grid.core.mvc6/7.2.0/nonfactors.grid.core.mvc6.7.2.0.nupkg.sha512",
     "/Users/alexfankhauser/.nuget/packages/nuget.common/6.9.1/nuget.common.6.9.1.nupkg.sha512",
     "/Users/alexfankhauser/.nuget/packages/nuget.configuration/6.9.1/nuget.configuration.6.9.1.nupkg.sha512",
     "/Users/alexfankhauser/.nuget/packages/nuget.dependencyresolver.core/6.9.1/nuget.dependencyresolver.core.6.9.1.nupkg.sha512",

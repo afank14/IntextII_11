@@ -35,10 +35,16 @@
                         <li>
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutPage">About Aurora</a>
                         </li>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="RedirectToCoreAdmin">Admin</a>
+                            </li>
+                        }
                     </ul>
                     <partial name="_LoginPartial" />
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Cart">
-                        <i class="fa fa-shopping-cart"></i></a>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="MyBag">
+                        <i class="fa fa-shopping-bag"></i></a>
                 </div>
             </div>
         </nav>
