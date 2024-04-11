@@ -42,25 +42,34 @@
                         <a href="@Url.Action("MyBag", "Home")" class="btn btn-secondary">View Bag</a>
                     </div>
                 </div>
-                <!-- Recommendations -->
-                <div class="col-md-6">
-                    <h4>Recommendations</h4>
-                    <ul class="list-group">
-                        @if (!string.IsNullOrEmpty(Model.rec_1))
-                        {
-                            <li class="list-group-item">@Model.rec_1</li>
-                        }
-                        @if (!string.IsNullOrEmpty(Model.rec_2))
-                        {
-                            <li class="list-group-item">@Model.rec_2</li>
-                        }
-                        @if (!string.IsNullOrEmpty(Model.rec_3))
-                        {
-                            <li class="list-group-item">@Model.rec_3</li>
-                        }
-                        <!-- Add more if needed -->
-                    </ul>
-                </div>
+            </div>
+        </div>
+        <!-- Recommendations -->
+        <div class="row">
+            <h3 class="text-center">You may also like:</h3>
+        </div>
+        <div class="row">
+            <div class="d-flex overflow-auto">
+                @foreach (Product p in ViewBag.Recommendations)
+                {
+                    <a href="/ProductDetail/@p.product_ID" class="col-3">
+                        <!-- Use Bootstrap's grid system to set the width -->
+                        <div class="card m-1 p-1" style="height: 100%;">
+                            <!-- Set a fixed height -->
+                            <div class="d-flex flex-column justify-content-between">
+                                <div>
+                                    <div class="text-center">
+                                        <!-- Center the image -->
+                                        <img src="@p.img_link" width="125" height="125" class="mb-2 mx-auto d-block" /> <!-- mx-auto and d-block center the image -->
+                                    </div>
+                                    <ul class="list-unstyled mb-0 text-center">
+                                        <li><span>@p.name</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                }
             </div>
         </div>
     }

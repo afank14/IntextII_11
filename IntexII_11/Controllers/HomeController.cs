@@ -67,7 +67,7 @@ public class HomeController : Controller
     {
         return View();
     }
-    
+
     [HttpGet]
     public IActionResult ProductDetail(int Id)
     {
@@ -76,6 +76,24 @@ public class HomeController : Controller
         {
             return NotFound();
         }
+
+        var recommendations = new List<Product>();
+        for (var i = 1; i <= 5; i++)
+        {
+            // Fetch the product ID associated with the recommendation name
+            var recName = (string)product.GetType().GetProperty($"rec_{i}").GetValue(product);
+            if (!string.IsNullOrEmpty(recName))
+            {
+                var recProduct = _repo.Products.FirstOrDefault(p => p.name == recName);
+                if (recProduct != null)
+                {
+                    recommendations.Add(recProduct);
+                }
+            }
+        }
+
+        // Pass both the product and recommendations to the view
+        ViewBag.Recommendations = recommendations;
         return View(product);
     }
 
