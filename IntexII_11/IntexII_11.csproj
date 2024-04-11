@@ -31,8 +31,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Components\" />
       <Folder Include="css\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Models\ProductCategory.cs" />
     </ItemGroup>
 
 </Project>

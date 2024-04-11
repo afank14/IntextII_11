@@ -27,8 +27,12 @@ builder.Services.AddAuthentication().AddGoogle(googleOptions =>
 // Add services to the container
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
                        throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(connectionString));
+
+builder.Services.AddScoped<IAuroraRepository, EFAuroraRepository>();
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
@@ -69,6 +73,13 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.MapControllers();
+
+app.MapControllerRoute(
+    name: "ProductDetail",
+    pattern: "ProductDetail/{id:int}",
+    defaults: new { controller = "Home", action = "ProductDetail" });
 
 app.MapControllerRoute(
     name: "default",

@@ -11,10 +11,12 @@
                     <small>@Model.num_parts pieces</small>
                 </span></li>
                 <li>@Model.name</li>
+                <li>Categories: @Model.category</li>
             </ul>
         </div>
         <div>
             <button class="btn btn-secondary mt-auto">Add to Bag</button>
+            <a href="/ProductDetail/@Model.product_ID" class="btn btn-secondary mt-auto">View Details</a>
         </div>
     </div>
 </div>

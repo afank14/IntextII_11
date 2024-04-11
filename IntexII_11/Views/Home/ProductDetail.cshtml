@@ -1,0 +1,57 @@
+﻿@model IntexII_11.Models.Product
+
+@{
+    ViewData["Title"] = "Product Detail";
+}
+@section Scripts {
+    <script>
+        function addToCart() {
+            var button = document.getElementById("addToBagButton");
+            button.innerHTML = '<i class="fas fa-check"></i> Item Added';
+            button.classList.remove("btn-secondary");
+            button.classList.add("btn-success");
+        }
+    </script>
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+<div class="container mt-5">
+    @if (Model != null)
+    {
+        <div class="row">
+            <div class="col-md-6">
+                <img src="@Model.img_link" class="img-fluid" alt="@Model.name" />
+            </div>
+            <div class="col-md-6">
+                <h2>@Model.name</h2>
+                <p><strong>Year:</strong> @Model.year</p>
+                <p><strong>Number of Parts:</strong> @Model.num_parts</p>
+                <p><strong>Price:</strong> $@Model.price</p>
+                <p><strong>Primary Color:</strong> @Model.primary_color</p>
+                <p><strong>Secondary Color:</strong> @Model.secondary_color</p>
+                <p><strong>Description:</strong></p>
+                <p>@Model.description</p>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Continue Shopping</a>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <button id="addToBagButton" class="btn btn-secondary" onclick="addToCart()">Add to Bag</button>
+                        <br />
+                        <a href="@Url.Action("Cart", "Home")" class="btn btn-secondary">View Bag</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger">Product not found.</div>
+    }
+</div>
+
+
+

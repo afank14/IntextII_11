@@ -1,7 +1,12 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    var categories = new List<string>
+    {
+    "Star Wars", "DC", "Harry Potter", "Animal", "Farm", "Disney", "Vehicle", "Food"
+    };
 }
 @model List<Product>
+
 
 <div class="text-center">
     <h2>Welcome to Aurora Bricks, we're happy to have you, friend! Happy bricking!</h2>
@@ -14,6 +19,40 @@
                     <button type="button" class="btn btn-secondary btn-sm">20 results</button>
                 </div>
             </div>
+            <h4>Filters</h4>
+            <h5>Category</h5>
+            <form asp-action="Index" asp-controller="Home" method="get">
+                @foreach (var category in categories)
+                {
+                    <div>
+                        <input type="checkbox" name="category" value="@category" />
+                        <label>@category</label>
+                    </div>
+                }
+                <div class="mb-3">
+                    <label for="primaryColor">Primary Color:</label>
+                    <select class="form-control" name="primaryColor" id="primaryColor">
+                        <option value="">All</option>
+                        <option value="Black">Black</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Brown">Brown</option>
+                        <!-- Add other primary colors here -->
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="secondaryColor">Secondary Color:</label>
+                    <select class="form-control" name="secondaryColor" id="secondaryColor">
+                        <option value="">All</option>
+                        <option value="White">White</option>
+                        <option value="Red">Red</option>
+                        <option value="Yellow">Yellow</option>
+                        <!-- Add other secondary colors here -->
+                    </select>
+                </div>
+
+                <input type="submit" value="Apply Filters" class="btn btn-primary mt-3" />
+            </form>
         </div>
         <div class="col-10">
             <div class="d-flex flex-wrap">
@@ -25,6 +64,7 @@
         </div>
     </div>
 </div>
+
 
 
 

@@ -1,19 +1,11 @@
 is_global = true
 build_property.TargetFramework = net8.0
-build_property.TargetFramework = net8.0
-build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
-build_property.UsingMicrosoftNETSdkWeb = true
-build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
-build_property.InvariantGlobalization = 
-build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
-build_property.EnforceExtendedAnalyzerRules = 
-build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IntexII_11
 build_property.RootNamespace = IntexII_11
@@ -194,10 +186,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Home/Cart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DYXJ0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Home/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DaGVja291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -206,8 +194,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Home/MyBag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9NeUJhZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Home/ProductDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcm9kdWN0RGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Shared/Error.cshtml]
