@@ -1,40 +1,25 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using IntexII_11.Models;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace IntexII_11.Controllers;
 
 public class HomeController : Controller
 {
-    private IAuroraRepository _repo;
+    private ApplicationDbContext _context;
 
-    public HomeController(IAuroraRepository temp)
+    public HomeController(ApplicationDbContext temp)
     {
-        _repo = temp;
+        _context = temp;
     }
 
     [HttpGet]
-    public IActionResult Index(string[] category, string primaryColor, string secondaryColor)
+    public IActionResult Index()
     {
-        IQueryable<Product> products = _repo.Products.AsQueryable();
+        var products = _context.Products.Take(12).ToList();
 
-        if (category != null && category.Any())
-        {
-            products = products.Where(p => category.Any(c => p.category.Contains(c)));
-        }
-
-        if (!string.IsNullOrEmpty(primaryColor))
-        {
-            products = products.Where(p => p.primary_color == primaryColor);
-        }
-
-        if (!string.IsNullOrEmpty(secondaryColor))
-        {
-            products = products.Where(p => p.secondary_color == secondaryColor);
-        }
-
-        return View(products.ToList());
+        return View(products);
     }
 
     [HttpGet]
@@ -44,7 +29,7 @@ public class HomeController : Controller
     }
 
     [HttpGet]
-    public IActionResult MyBag()
+    public IActionResult Cart()
     {
         return View();
     }
@@ -54,11 +39,17 @@ public class HomeController : Controller
     {
         return View();
     }
-
     public IActionResult Privacy()
     {
         return View();
     }
+    [Authorize(Roles = "Admin")]
+    public IActionResult RedirectToCoreAdmin()
+    {
+        // Perform any necessary operations here
+        return Redirect("/coreadmin");
+    }
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
@@ -66,15 +57,4 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 
-    public IActionResult ProductDetail(int Id)
-    {
-        var product = _repo.Products.FirstOrDefault(p => p.product_ID == Id);
-        
-        if (product == null)
-        {
-            return NotFound();
-        }
-        
-        return View(product);
-    }
 }
