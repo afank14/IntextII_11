@@ -1,0 +1,45 @@
+@{
+    ViewData["Title"] = "Products";
+    Layout = "_Layout";
+}
+
+@model List<Product>
+
+<style>
+    /* Set a fixed height for all rows */
+    .table tr {
+        height: 100px; /* Adjust the height as needed */
+    }
+
+    /* Center content vertically within each row */
+    .table td {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+<h2>View, Edit, and Delete Products</h2>
+
+<a asp-controller="Admin" asp-action="NewProduct"><h4>Add a New Product</h4></a>
+
+<div class="container-fluid"> <!-- Use container-fluid to make the container full width -->
+    <table class="table-bordered">
+        @foreach (Product p in Model)
+        {
+            <tr>
+                <td class="col-md-4 text-center"><h2>@p.name</h2></td>
+                <td class="col-md-4 text-center">
+                    <img src="@p.img_link" class="img-fluid" /> <!-- Add the "img-fluid" class to make images responsive -->
+                </td>
+                <td class="col-md-4 text-center">
+                    <h4>$@p.price</h4>
+                    <br/>
+                    <a class="btn btn-primary btn-block" asp-controller="Admin" asp-action="EditProduct" asp-route-id="@p.product_ID">Edit</a> <!-- Use "btn-block" to make buttons fill the width -->
+                    <br/><br/>
+                    <a class="btn btn-danger btn-block" asp-controller="Admin" asp-action="DeleteProduct" asp-route-id="@p.product_ID">Delete</a>
+                </td>
+            </tr> 
+        }
+    </table>
+</div>

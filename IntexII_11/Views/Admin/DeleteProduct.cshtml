@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Delete Product";
+    Layout = "_Layout";
+}
+
+@model Product
+
+<div class="text-center">
+    <h2>Confirm Deletion of @Model.name</h2>
+
+    <form method="post">
+
+        <input type="hidden" asp-for="product_ID" />
+
+        <button type="submit" class="btn btn-danger">Delete</button>
+        
+        <a class="btn btn-light" asp-controller="Admin" asp-action="Products">Cancel</a>
+    </form>
+</div>

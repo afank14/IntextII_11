@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IntexII_11
 build_property.RootNamespace = IntexII_11
@@ -178,12 +186,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Admin/Customers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ3VzdG9tZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Admin/DeleteCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRGVsZXRlQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Admin/DeleteProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRGVsZXRlUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Admin/NewCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTmV3Q3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Admin/NewProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTmV3UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Admin/OrderDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vT3JkZXJEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Admin/Orders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Admin/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUHJvZHVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Home/AboutPage.cshtml]
@@ -208,6 +240,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Home/ProductDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcm9kdWN0RGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/alexfankhauser/Documents/GitHub/IntextII_11/IntexII_11/Views/Shared/Error.cshtml]

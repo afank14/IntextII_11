@@ -4,36 +4,27 @@
 }
 @model List<Product>
 
-
 <div class="container mt-5">
     @if (Model != null)
     {
         <div class="row">
-            @foreach (Product p in Model)
+            @for (var i = 0; i < ViewBag.qty.Count; i++)
             {
-                <div class="card m-1 p-1" style="width: 30%;">
-                    <div class="d-flex flex-column justify-content-between">
-                        <div>
-                            <br /><img src="@p.img_link" width="150" height="150" class="mb-2" />
-                            <ul class="list-unstyled mb-0">
-                                <li>
-                                    <span>
-                                        <img src="~/img/logo.png" width="20" height="20" alt="Logo Icon" />
-                                        <small>@p.num_parts pieces</small>
-                                    </span>
-                                </li>
-                                <li>@p.name</li>
-                                <li>Categories: @p.category</li>
-                            </ul>
+                <div class="col-md-4"> <!-- Adjust the column size as needed -->
+                    <div class="card m-1 p-1">
+                        <div class="d-flex flex-column justify-content-between text-center">
+                            <div>
+                                <br /><img src="@Model[i].img_link" width="150" height="150" class="mb-2" />
+                                <ul class="list-unstyled mb-0">
+                                    <li>@Model[i].name</li>
+                                    <li>Quantity: @ViewBag.qty[i]</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             }
         </div>
-
-
-
-
     }
     else
     {

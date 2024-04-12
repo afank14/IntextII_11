@@ -13,5 +13,15 @@ public interface IAuroraRepository
 
     public void SaveChanges(Order order);
 
+    public void AddProduct(Product product);
+    
+    public void EditProduct(Product product);
+    
+    public void DeleteProduct(Product product);
+    public void AddCustomer(Customer customer);
+
+    public void EditCustomer(Customer customer);
+    public void DeleteCustomer(Customer customer);
+
     // public IQueryable<ProductCategory> GetProductsWithCategory();
 }

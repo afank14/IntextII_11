@@ -71,6 +71,8 @@ namespace IntexII_11.Areas.Identity.Pages.Account
                     pageHandler: null,
                     values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
                     protocol: Request.Scheme);
+                return RedirectToAction("Register", "Home", new { email = Email });
+
             }
 
             return Page();

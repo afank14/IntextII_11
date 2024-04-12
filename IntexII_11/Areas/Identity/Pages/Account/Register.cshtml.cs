@@ -141,7 +141,8 @@ namespace IntexII_11.Areas.Identity.Pages.Account
                     else
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false);
-                        return LocalRedirect(returnUrl);
+                        return RedirectToAction("Register", "Home", new { email = Input.Email });
+
                     }
                 }
                 foreach (var error in result.Errors)

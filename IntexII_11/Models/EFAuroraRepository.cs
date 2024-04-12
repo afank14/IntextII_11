@@ -26,11 +26,42 @@ public class EFAuroraRepository : IAuroraRepository
     {
         _context.SaveChanges();
     }
+    
+    public void AddProduct(Product product)
+    {
+        _context.Products.Add(product);
+        _context.SaveChanges();
+    }
 
-    // Method to get the stats and include Category
-    // public IQueryable<ProductCategory> GetProductsWithCategory()
-    // {
-    //     return _context.ProductCategories.Include(p => p.Product)
-    //         .Include(p => p.Category);
-    // }
+    public void EditProduct(Product product)
+    {
+        _context.Products.Update(product);
+        _context.SaveChanges();
+    }
+
+    // Method to delete a product and save changes to the db
+    public void DeleteProduct(Product product)
+    {
+        _context.Products.Remove(product);
+        _context.SaveChanges();
+    }
+    
+    public void AddCustomer(Customer customer)
+    {
+        _context.Customers.Add(customer);
+        _context.SaveChanges();
+    }
+    
+    public void EditCustomer(Customer customer)
+    {
+        _context.Customers.Update(customer);
+        _context.SaveChanges();
+    }
+
+    // Method to delete a task and save changes to the db
+    public void DeleteCustomer(Customer customer)
+    {
+        _context.Customers.Remove(customer);
+        _context.SaveChanges();
+    }
 }

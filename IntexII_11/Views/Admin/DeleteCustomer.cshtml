@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Delete Customer";
+    Layout = "_Layout";
+}
+
+@model Customer
+
+<div class="text-center">
+    <h2>Confirm Deletion of Customer @Model.customer_ID, @Model.first_name @Model.last_name</h2>
+
+    <form method="post">
+
+        <input type="hidden" asp-for="customer_ID" />
+
+        <button type="submit" class="btn btn-danger">Delete</button>
+        
+        <a class="btn btn-light" asp-controller="Admin" asp-action="Customers">Cancel</a>
+    </form>
+</div>

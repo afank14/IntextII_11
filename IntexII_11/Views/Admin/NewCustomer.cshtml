@@ -1,0 +1,56 @@
+@model Customer
+@{
+    ViewData["Title"] = "Edit Product";
+    Layout = "_Layout";
+}
+
+@{
+    string pageTitle = (Model.first_name == null) ? "Add Customer" : $"Edit Customer {Model.customer_ID}";
+}
+
+<h2>@pageTitle</h2>
+
+<form method="post">
+    <input asp-for="customer_ID" type="hidden"/>
+    <div class="form-group">
+        <label asp-for="first_name" class="control-label">First Name</label>
+        <input asp-for="first_name" class="form-control"/>
+        <span asp-validation-for="first_name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="last_name" class="control-label">Last Name</label>
+        <input asp-for="last_name" class="form-control"/>
+        <span asp-validation-for="last_name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="birth_date" type="date" class="control-label">Birth Date</label>
+        <input asp-for="birth_date" class="form-control"/>
+        <span asp-validation-for="birth_date" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="country_of_residence" class="control-label">Country of Residence</label>
+        <input asp-for="country_of_residence" class="form-control"/>
+        <span asp-validation-for="country_of_residence" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="gender" class="control-label">Gender</label>
+        <input asp-for="gender" class="form-control"/>
+        <span asp-validation-for="gender" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="age" class="control-label">Age</label>
+        <input asp-for="age" class="form-control"/>
+        <span asp-validation-for="age" class="text-danger"></span>
+    </div>
+    <!-- input for email -->
+    <div class="form-group">
+        <label asp-for="email" class="control-label">Email</label>
+        <input asp-for="email" class="form-control"/>
+        <span asp-validation-for="email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Submit" class="btn btn-primary"/>
+        <a class="btn btn-light" asp-controller="Admin" asp-action="Customers">Cancel</a>
+    </div>
+</form>

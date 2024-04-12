@@ -1,0 +1,71 @@
+@model Product
+@{
+    ViewData["Title"] = "Edit Product";
+    Layout = "_Layout";
+}
+
+@{
+    string pageTitle = (Model.name == null) ? "Add Product" : $"Edit {Model.name}";
+}
+<h2>@pageTitle</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="product_ID" />
+
+    <div class="mb-3">
+        <label asp-for="name" class="form-label">Name</label>
+        <input asp-for="name" class="form-control" />
+        <span asp-validation-for="name" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="year" class="form-label">Year</label>
+        <input asp-for="year" class="form-control" />
+        <span asp-validation-for="year" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="num_parts" class="form-label">Number of Parts</label>
+        <input asp-for="num_parts" class="form-control" />
+        <span asp-validation-for="num_parts" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="price" class="form-label">Price</label>
+        <input asp-for="price" class="form-control" step="0.01" />
+        <span asp-validation-for="price" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="img_link" class="form-label">Image Link</label>
+        <input asp-for="img_link" class="form-control" />
+        <span asp-validation-for="img_link" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="primary_color" class="form-label">Primary Color</label>
+        <input asp-for="primary_color" class="form-control" />
+        <span asp-validation-for="primary_color" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="secondary_color" class="form-label">Secondary Color</label>
+        <input asp-for="secondary_color" class="form-control" />
+        <span asp-validation-for="secondary_color" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="description" class="form-label">Description</label>
+        <textarea asp-for="description" class="form-control" rows="4"></textarea>
+        <span asp-validation-for="description" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="category" class="form-label">Category</label>
+        <input asp-for="category" class="form-control" />
+        <span asp-validation-for="category" class="text-danger"></span>
+    </div>
+    <input type="hidden" asp-for="avg_rating" />
+    <input type="hidden" asp-for="rec_1" />
+    <input type="hidden" asp-for="rec_2" />
+    <input type="hidden" asp-for="rec_3" />
+    <input type="hidden" asp-for="rec_4" />
+    <input type="hidden" asp-for="rec_5" />
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a class="btn btn-light" asp-controller="Admin" asp-action="Products">Cancel</a>
+</form>
+
+
+

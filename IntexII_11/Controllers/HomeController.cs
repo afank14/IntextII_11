@@ -95,6 +95,36 @@ public class HomeController : Controller
         }
         return View(products.ToList());
     }
+    
+    [HttpGet]
+    public IActionResult Register(string email)
+    {
+        if (email != null)
+        {
+            // Use the email here
+            ViewBag.Email = email;
+        }
+
+        return View(new Customer());
+    }
+
+    [HttpPost]
+    public IActionResult Register(Customer c)
+    {
+        // If the ModelState is Valid add it to the database
+        if (ModelState.IsValid) 
+        {
+            // call the AddProduct method from the repository
+            _repo.AddCustomer(c);
+
+            return RedirectToAction("Index");
+        }
+        // If it isn't valid, stay on this screen and make them edit it til it is valid
+        else
+        {
+            return View(c);
+        } 
+    }
 
     [HttpGet]
     public IActionResult AboutPage()
