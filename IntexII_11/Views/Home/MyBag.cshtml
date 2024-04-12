@@ -133,7 +133,7 @@
             </tr>
         </tfoot>
     </table>
-    <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Checkout">Proceed to Checkout</a>
+    <a class="btn btn-primary" onclick="proceedToCheckout()">Proceed to Checkout</a>
     <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Index">Continue Shopping</a>
 
 
@@ -202,6 +202,20 @@
 
             // Update the total
             updateTotal();
+        }
+        
+        function proceedToCheckout() {
+                // Get the total amount
+                var total = parseFloat(document.getElementById('total').textContent.replace('$', ''));
+        
+                // Convert to integer (if needed)
+                var totalInt = Math.round(total);
+        
+                // Construct the URL with the total as a query parameter
+                var checkoutUrl = `@Url.Action("Checkout", "Home")?total=${totalInt}`;
+        
+                // Redirect to the checkout page
+                window.location.href = checkoutUrl;
         }
 
         function updateTotal() {

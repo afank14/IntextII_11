@@ -21,8 +21,8 @@
 
 <h2>View, Edit, and Delete Products</h2>
 
-<a asp-controller="Admin" asp-action="NewProduct"><h4>Add a New Product</h4></a>
-
+<a class="btn btn-primary" asp-controller="Admin" asp-action="NewProduct"><h4>Add a New Product</h4></a>
+<br/>
 <div class="container-fluid"> <!-- Use container-fluid to make the container full width -->
     <table class="table-bordered">
         @foreach (Product p in Model)

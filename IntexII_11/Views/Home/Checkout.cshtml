@@ -597,16 +597,14 @@
         </select>
     </div>
 
-    <!-- Order Total Box -->
     <div class="order-total-box">
         <div class="order-total">
             <span>Order Total:</span>
-            <span>$30.00</span> <!-- Update this with the actual total -->
+            <input type="text" id="totalInput" class="form-control" readonly> <!-- Change to input -->
         </div>
     </div>
     <input type="hidden" id="country_of_residence" name="country_of_residence" value="United Kingdom"/>
     <input type="hidden" id="age" name="age" value="45"/>
-    <input type="hidden" id="amount" name="amount" value="63"/>
     <input type="hidden" id="gender" name="gender" value="M"/>
     <input type="hidden" id="time" name="time">
     <button type="submit" class="btn btn-primary">Submit Order</button>
@@ -615,7 +613,13 @@
     <div>
         @if (ViewBag.Prediction != null)
         {
-            <h2>Prediction: @ViewBag.Prediction</h2>
+            if (ViewBag.Prediction)
+            {
+                <h4>Thank you for your order. Your order is almost ready to be processed, 
+                    it just needs to be reviewed first! We will contact you when it is ready to be 
+                    processed!</h4>
+            }
+            
         }
     </div>
 
@@ -637,6 +641,19 @@
               this.submit(); // You might want to submit the form here or redirect the user
 
         });
+        
+        function getUrlParameter(name) {
+                name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+                var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+                var results = regex.exec(location.search);
+                return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+            }
+        
+            // Get the total from the URL query parameter
+            var total = parseFloat(getUrlParameter('total'));
+        
+            // Set the total as the value of the input field
+            document.getElementById('totalInput').value = '$' + total.toFixed(2);
     </script>
 </body>
 </html>

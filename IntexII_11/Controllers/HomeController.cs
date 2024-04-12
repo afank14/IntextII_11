@@ -138,11 +138,20 @@ public class HomeController : Controller
         return View();
     }
 
-    [Authorize(Roles = "Member")]
     public IActionResult Checkout()
     {
-        return View();
-    }
+        if (!User.Identity.IsAuthenticated)
+        {
+            ViewBag.Message = "Please login or create an account.";
+            return RedirectToAction("Index", "Home");
+        }
+        else
+        {
+            // Proceed with the checkout logic
+            return View();
+        }
+    }  
+    
 
     [HttpGet]
     public IActionResult ProductDetail(int Id)
@@ -267,9 +276,10 @@ public class HomeController : Controller
                     ViewBag.Prediction = false;
                 }
             }
-            // Generate a random customer_ID
-            Random rnd = new Random();
-            int customerId = rnd.Next(1, 1000); // Generates a random number between 1 and 999
+            
+            // get the customer
+            var customer = _repo.Customers.FirstOrDefault(c => c.email == User.Identity.Name);
+            int customerId = customer.customer_ID; // Generates a random number between 1 and 999
 
             // Calculate total amount
             decimal totalAmount = 0;
@@ -291,8 +301,17 @@ public class HomeController : Controller
                 country_of_transaction = billing_country,
                 shipping_address = shipping_country,
                 type_of_card = type_of_card,
-                predicted_fraud = ViewBag.Prediction // Get the prediction from ViewBag
+                // predicted_fraud = ViewBag.Prediction // Get the prediction from ViewBag
             };
+
+            if (ViewBag.Prediction)
+            {
+                newOrder.predicted_fraud = true;
+            }
+            else
+            {
+                newOrder.fraud = false;
+            }
 
             // Add the new order to the repository
             _repo.AddOrder(newOrder);

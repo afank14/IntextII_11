@@ -89,11 +89,11 @@
             if (!consent) {
                 document.getElementById('cookieConsentBanner').style.display = 'block';
             }
-
+    
             document.getElementById('acceptCookieConsent').onclick = function (e) {
                 document.getElementById('cookieConsentBanner').style.display = 'none';
                 document.cookie = "CookieConsent=true; path=/; expires=" + new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toUTCString();
-            }; 
+            };
         });
     </script>
 </body>

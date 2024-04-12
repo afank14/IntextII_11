@@ -86,6 +86,7 @@ else
 }
 
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 
 app.UseCookiePolicy(); // Use cookie policy middleware

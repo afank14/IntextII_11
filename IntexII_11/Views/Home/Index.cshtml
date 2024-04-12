@@ -21,6 +21,12 @@
     </script>
 }
 @model List<Product>
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-info">
+        @ViewBag.Message
+    </div>
+}
 <div class="text-center">
     <h2>Welcome to Aurora Bricks, we're happy to have you, friend! Happy bricking!</h2>
     <div class="row">
