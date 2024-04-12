@@ -6,6 +6,7 @@ using Microsoft.ML.OnnxRuntime;
 using Microsoft.ML.OnnxRuntime.Tensors;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
 
 namespace IntexII_11.Controllers;
 
@@ -143,7 +144,7 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    public IActionResult Checkout(int time, int amount, int age, string billing_country, string shipping_country, string type_of_card, 
+    public IActionResult Checkout(List<Product> cart, int time, int amount, int age, string billing_country, string shipping_country, string type_of_card,
         string country_of_residence, string gender)
     {
         var country_of_transaction_India = 0;
@@ -158,7 +159,7 @@ public class HomeController : Controller
         var country_of_residence_USA = 0;
         var country_of_residence_United_Kingdom = 0;
         var gender_M = 0;
-        
+
         if (billing_country.Equals("India"))
         {
             country_of_transaction_India = 1;
@@ -203,50 +204,82 @@ public class HomeController : Controller
         {
             gender_M = 1;
         }
-        
+
         try
         {
+
             var input = new List<float>
-            {
-                time, amount, age, entry_mode_PIN, type_of_transaction_Online, country_of_transaction_India,
-                country_of_transaction_Russia, country_of_transaction_USA, country_of_transaction_United_Kingdom,
-                shipping_address_United_Kingdom, type_of_card_Visa, country_of_residence_Russia,
-                country_of_residence_USA,
-                country_of_residence_United_Kingdom, gender_M
-            };
+        {
+            time, amount, age, entry_mode_PIN, type_of_transaction_Online, country_of_transaction_India,
+            country_of_transaction_Russia, country_of_transaction_USA, country_of_transaction_United_Kingdom,
+            shipping_address_United_Kingdom, type_of_card_Visa, country_of_residence_Russia,
+            country_of_residence_USA,
+            country_of_residence_United_Kingdom, gender_M
+        };
             var inputTensor = new DenseTensor<float>(input.ToArray(), new[] { 1, input.Count });
-    
+
             var inputs = new List<NamedOnnxValue>
-            {
-                NamedOnnxValue.CreateFromTensor("float_input", inputTensor)
-            };
-    
+        {
+            NamedOnnxValue.CreateFromTensor("float_input", inputTensor)
+        };
+
             using (var results = _session.Run(inputs)) // makes the prediction from the inputs from the form
             {
                 var prediction = results.FirstOrDefault(item => item.Name == "output_label")?.AsTensor<long>()
                     .ToArray();
-    
+
                 if (prediction != null && prediction[0] == 1)
                 {
-                    var fraud = true;
-                    // Use the prediction to display fraud
-                    ViewBag.Prediction = fraud;
+                    ViewBag.Prediction = true;
                 }
                 else
                 {
-                    var fraud = false;
-                    ViewBag.Prediction = fraud;
+                    ViewBag.Prediction = false;
                 }
             }
+            // Generate a random customer_ID
+            Random rnd = new Random();
+            int customerId = rnd.Next(1, 1000); // Generates a random number between 1 and 999
+
+            // Calculate total amount
+            decimal totalAmount = 0;
+            foreach (var product in cart)
+            {
+                totalAmount += (decimal)product.price;
+            }
+
+            // Create a new order
+            var newOrder = new Order
+            {
+                customer_ID = customerId,
+                date = DateOnly.FromDateTime(DateTime.UtcNow),
+                day_of_week = DateTime.UtcNow.DayOfWeek.ToString(),
+                time = DateTime.UtcNow.Hour,
+                entry_mode = "PIN",
+                amount = (Decimal)totalAmount, // Convert int to Decimal
+                type_of_transaction = "Online",
+                country_of_transaction = billing_country,
+                shipping_address = shipping_country,
+                type_of_card = type_of_card,
+                predicted_fraud = ViewBag.Prediction // Get the prediction from ViewBag
+            };
+
+            // Add the new order to the repository
+            _repo.AddOrder(newOrder);
+            _repo.SaveChanges(newOrder);
+
+            // Clear the cart after checkout
+            //HttpContext.Session.Remove("cart");
+
+            return View();
         }
         catch (Exception e)
         {
             Console.WriteLine(e);
             throw;
         }
-    
-        return View();
     }
+
 
     public IActionResult Privacy()
     {

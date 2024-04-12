@@ -20,6 +20,10 @@ public class EFAuroraRepository : IAuroraRepository
     public void AddOrder(Order order)
     {
         _context.Orders.Add(order);
+    }
+
+    public void SaveChanges(Order order)
+    {
         _context.SaveChanges();
     }
 

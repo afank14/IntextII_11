@@ -11,5 +11,7 @@ public interface IAuroraRepository
 
     public void AddOrder(Order order);
 
+    public void SaveChanges(Order order);
+
     // public IQueryable<ProductCategory> GetProductsWithCategory();
 }
